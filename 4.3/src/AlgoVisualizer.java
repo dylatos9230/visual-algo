@@ -7,7 +7,7 @@ public class AlgoVisualizer {
   public AlgoVisualizer(int sceneWidth, int sceneHeight,int N) {
     data = new InsertionSortData(N,sceneHeight);
     EventQueue.invokeLater(()->{
-      frame = new AlgoFrame("Selection sort", sceneWidth, sceneHeight);
+      frame = new AlgoFrame("Insertion Sort", sceneWidth, sceneHeight);
       new Thread(()-> {
           run();
       }).start();

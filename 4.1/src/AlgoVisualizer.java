@@ -8,7 +8,7 @@ public class AlgoVisualizer {
     data = new SelectSortData(N,sceneHeight);
     System.out.println(data.toString());
     EventQueue.invokeLater(()->{
-      frame = new AlgoFrame("Selection sort", sceneWidth, sceneHeight);
+      frame = new AlgoFrame("Selection Sort", sceneWidth, sceneHeight);
       new Thread(()-> {
           run();
       }).start();

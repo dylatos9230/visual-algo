@@ -10,7 +10,7 @@ public class AlgoVisualizer {
     mergeSortData = new MergeSortData(N,sceneHeight);
     this.N = N;
     EventQueue.invokeLater(()->{
-      frame = new AlgoFrame("Selection sort", sceneWidth, sceneHeight);
+      frame = new AlgoFrame("Merge Sort", sceneWidth, sceneHeight);
       new Thread(()-> {
           run();
       }).start();
